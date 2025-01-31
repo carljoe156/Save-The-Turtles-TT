@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 import "./Nav.css";
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,23 +13,20 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="logo">
-          <a href="/">MyLogo</a>
+          <Link to="/">STTT</Link>
         </div>
 
         {/* Desktop Menu */}
         <div className="menu desktop-menu">
-          <a href="/" className="menu-item">
+          <Link to="/" className="menu-item">
             Home
-          </a>
-          <a href="/about" className="menu-item">
+          </Link>
+          <Link to="/about" className="menu-item">
             About
-          </a>
-          <a href="/services" className="menu-item">
-            Services
-          </a>
-          <a href="/contact" className="menu-item">
+          </Link>
+          <Link to="/contact" className="menu-item">
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -40,18 +38,16 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="menu mobile-menu">
-          <a href="/" className="menu-item">
+          <Link to="/" className="menu-item">
             Home
-          </a>
-          <a href="/about" className="menu-item">
+          </Link>
+          <Link to="/about" className="menu-item">
             About
-          </a>
-          <a href="/services" className="menu-item">
-            Services
-          </a>
-          <a href="/contact" className="menu-item">
+          </Link>
+
+          <Link to="/contact" className="menu-item">
             Contact
-          </a>
+          </Link>
         </div>
       )}
     </nav>
