@@ -22,10 +22,21 @@ function HomePage() {
         <section className="section">
           <h3>Mission/Vision</h3>
           <p>Details about Mission/Vision.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            perspiciatis tempora, debitis quaerat distinctio magnam ex,
+            accusamus excepturi blanditiis dolorum fuga voluptas obcaecati
+            corporis repellendus sed quas porro. Reiciendis, nihil.
+          </p>
         </section>
         <section className="section">
           <h3>Stats</h3>
           <p>Details about Stats.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
+            nisi, voluptatibus, earum quod quos voluptatum voluptates veniam
+            expedita neque! Laborum, veniam.
+          </p>
         </section>
       </div>
     </div>
