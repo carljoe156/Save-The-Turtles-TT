@@ -37,6 +37,12 @@ function HomePage() {
             nisi, voluptatibus, earum quod quos voluptatum voluptates veniam
             expedita neque! Laborum, veniam.
           </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+            facilis ab veniam, non culpa sit tenetur eius, quaerat voluptates
+            libero quibusdam reprehenderit quas unde in quae? Blanditiis quidem
+            voluptate deserunt!
+          </p>
         </section>
       </div>
     </div>
